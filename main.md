@@ -1,70 +1,44 @@
 ---
-title: Slide 模板
-separator: <!--s-->
-verticalSeparator: <!--v-->
+title: Slide Template
 theme: simple
-highlightTheme: monokai-sublime
-css: 
-    - custom.css
-    - dark.css
+highlightTheme: github
+css: custom.css
 revealOptions:
-    transition: 'slide'
-    transitionSpeed: fast
+    transition: 'none'
     center: false
     slideNumber: "c/t"
-    width: 1000
+    width: 1000    
 ---
 
 <div class="middle center">
 <div style="width: 100%">
 
-# Slide 模版
+# Slide Template
 
 <hr/>
 
 By [@TonyCrane](https://github.com/TonyCrane)
 
-
-
 </div>
 </div>
 
-<!--s-->
+---
 
-<div class="middle center">
-<div style="width: 100%">
-
-# Part.1 大标题
-
-一些 markdown
-
-</div>
-</div>
-
-
-<!--v-->
-
-## 标题
+## Frame Title
 
 > test
 
 <hr/>
 
-```rust [1|2-3]
-fn main() {
-    println!("Hello World!")
+```c++
+#include <iostream>
+template <typename F>
+constexpr void main () {
+
 }
 ```
 
-...
-
-- list 1
-- list 2
-    - list 2.1
-
-1. 有序
-
-<!--v-->
+---
 
 ## 标题
 
@@ -82,17 +56,7 @@ fn main() {
 |这是一个|一些内容|...|
 |普通表格|...|...|
 
-<!--s-->
-
-<div class="middle center">
-<div style="width: 100%">
-
-# Part.2 布局
-
-</div>
-</div>
-
-<!--v-->
+---
 
 ## 多列布局
 
