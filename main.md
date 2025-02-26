@@ -7,28 +7,43 @@ revealOptions:
     transition: 'none'
     center: false
     slideNumber: "c/t"
-    width: 1000    
+    width: 1000
+    data-separator-notes: "^Note:"
 ---
 
 <div class="middle center">
 <div style="width: 100%">
 
-# Slide Template
+# **Slide Template**<br>small
+<br>
 
-<hr/>
+Xingyu Yang
+<br>
 
-By [@TonyCrane](https://github.com/TonyCrane)
+<small>College of Computer Science and Technology,<br>
+Zhejiang University</small>
+<br><br>
+
+December 12$^{\textrm{th}}$, 2024
 
 </div>
 </div>
 
 ---
-
 ## Frame Title
 
-> test
+- Point 1
 
-<hr/>
+---
+## Frame Title
+
+- Point 1
+- Point 2
+
+Note: abcabc    
+
+---
+## Sample Code
 
 ```c++
 #include <iostream>
