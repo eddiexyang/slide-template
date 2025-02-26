@@ -20,10 +20,6 @@
   font-weight: 300;
 }
 
-.reveal section {
-  padding: 20px 0;
-}
-
 .reveal p, .reveal li, .reveal center {
   font-size: 30px;
 }
@@ -87,8 +83,9 @@
 }
 .reveal h2 {
   font-size: 48px;
-  border-bottom: 2px solid rgb(0, 63, 163);
-  padding-bottom: 20px;
+  background-color: #f0f0f0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .reveal h3 { font-size: 1.15em; }
 .reveal h4 { font-size: 1.05em; }
