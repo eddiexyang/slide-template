@@ -1,9 +1,9 @@
 @import url(https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css);
 @import url(https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/sans.css);
 :root {
-  --r-main-font: "Computer Modern Sans", sans-serif, "LXGW WenKai Screen";
-  --r-heading-font: "Computer Modern Sans", sans-serif, "LXGW WenKai Screen";
-  --r-code-font: "Computer Modern Sans", sans-serif, "LXGW WenKai Screen";
+  --r-main-font: "Computer Modern Sans", "LXGW WenKai Screen";
+  --r-heading-font: "Computer Modern Sans", "LXGW WenKai Screen";
+  --r-code-font: "Computer Modern Sans", "LXGW WenKai Screen";
 }
 
 .reveal .slide-number {
@@ -227,10 +227,6 @@ html.print-pdf .reveal pre code {
 .reveal .slide-number {
   left: 8px;
   right: unset;
-}
-
-.MathJax .math {
-  font-size: 80%;
 }
 
 .katex {
