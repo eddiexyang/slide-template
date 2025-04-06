@@ -1,9 +1,9 @@
 @import url(https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css);
 @import url(https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/sans.css);
 :root {
-  --r-main-font: "Computer Modern Sans", "LXGW WenKai Screen";
-  --r-heading-font: "Computer Modern Sans", "LXGW WenKai Screen";
-  --r-code-font: "Computer Modern Sans", "LXGW WenKai Screen";
+  --r-main-font: "LXGW WenKai Screen";
+  --r-heading-font: "LXGW WenKai Screen";
+  --r-code-font: "LXGW WenKai Screen";
 }
 
 .reveal .slide-number {
